@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+    <listeners>
+        <listener class-name="main.java.utils.SuiteListener"/>
+    </listeners>
+<!--DONE-->
+    <test name="Log in Test">
+        <parameter name="browserName" value="chrome">
+            <classes>
+                <class name="test.java.LogInTest"/>
+            </classes>
+        </parameter>
+    </test>
+
+<!--DONE    -->
+<!--    <test name="Add the item to Basket list Test">-->
+<!--        <parameter name="browserName" value="chrome">-->
+<!--            <classes>-->
+<!--                <class name="test.java.AddItemToBasketTest"/>-->
+<!--            </classes>-->
+<!--        </parameter>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;DONE    &ndash;&gt;-->
+<!--    <test name="Ask the question Test">-->
+<!--        <parameter name="browserName" value="chrome">-->
+<!--            <classes>-->
+<!--                <class name="test.java.AskQuestionTest"/>-->
+<!--            </classes>-->
+<!--        </parameter>-->
+<!--    </test>-->
+<!--&lt;!&ndash;DONE&ndash;&gt;-->
+<!--    <test name="Update credentials Test">-->
+<!--        <parameter name="browserName" value="chrome">-->
+<!--            <classes>-->
+<!--                <class name="test.java.UpdateCredentialsTest"/>-->
+<!--            </classes>-->
+<!--        </parameter>-->
+<!--    </test>-->
+<!--    <test name="Review social media Test">-->
+<!--        <parameter name="browserName" value="chrome">-->
+<!--            <classes>-->
+<!--                <class name="test.java.ReviewSocialMediaTest"/>-->
+<!--            </classes>-->
+<!--        </parameter>-->
+<!--    </test>-->
+</suite>
